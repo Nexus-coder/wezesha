@@ -1,0 +1,17 @@
+{
+  "name": "web3",
+  "scripts": {
+    "build": "npx thirdweb detect",
+    "deploy": "npx thirdweb deploy -k KYO5VYGBzAEN0HdY2w13_nIoREEusn_9foGSADtnqXYi8-667JHN8SLCaZW4aoFlyTJ4nn7rXao-YZt-TpMqRA",
+    "publish": "npx thirdweb publish -k KYO5VYGBzAEN0HdY2w13_nIoREEusn_9foGSADtnqXYi8-667JHN8SLCaZW4aoFlyTJ4nn7rXao-YZt-TpMqRA"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.8.0",
+    "dotenv": "^16.4.5",
+    "zksync-web3": "^0.14.3"
+  }
+}
